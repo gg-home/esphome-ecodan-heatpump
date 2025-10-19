@@ -25,6 +25,10 @@ CONFIG_SCHEMA = cv.Schema(
             EcodanSwitch,
             icon="mdi:beach"
         ),
+        cv.Optional("temp_test"): switch.switch_schema(
+            EcodanSwitch,
+            icon="mdi:beach"
+        ),
     }
 ).extend(cv.COMPONENT_SCHEMA)
 

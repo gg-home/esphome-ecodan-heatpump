@@ -123,6 +123,8 @@ switch:
       name: Force DHW
     holiday_mode:
       name: Holiday Mode
+    temp_test:
+      name: Temp Test
 
 select:
   - platform: ecodan

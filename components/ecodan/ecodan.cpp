@@ -9,6 +9,8 @@ constexpr uint8_t ecodan::commands::command_hot_water_setpoint::packetMask[PACKE
 constexpr uint8_t ecodan::commands::command_zone1_room_temp_setpoint::packetMask[PACKET_BUFFER_SIZE];
 constexpr uint8_t ecodan::commands::command_zone1_flow_temp_setpoint::packetMask[PACKET_BUFFER_SIZE];
 constexpr uint8_t ecodan::commands::command_zone1_room_temp::packetMask[PACKET_BUFFER_SIZE];
+constexpr uint8_t ecodan::commands::command_increment_temp::packetMask[PACKET_BUFFER_SIZE];
+constexpr uint8_t ecodan::commands::command_decrement_temp::packetMask[PACKET_BUFFER_SIZE];
 
 namespace esphome {
 namespace ecodan_ {
