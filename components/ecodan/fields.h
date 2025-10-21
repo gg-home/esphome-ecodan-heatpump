@@ -87,6 +87,7 @@ DEFINE_FIELD(hot_water_timer, 0x28, 9, VarType_ON_OFF);
 DEFINE_FIELD(date_energy_cons, 0xA1, 6, VarType_DATE);
 DEFINE_FIELD(date_energy_prod, 0xA2, 6, VarType_DATE);
 DEFINE_FIELD(holiday_mode, 0x28, 9, VarType_ON_OFF);
+DEFINE_FIELD(temp_test, 0x28, 9, VarType_ON_OFF);
 
 // Boolean fields
 DEFINE_FIELD(power_state, 0x26, 8, VarType_ON_OFF);

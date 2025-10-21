@@ -24,6 +24,7 @@ CONFIG_SCHEMA = cv.Schema(
         cv.Optional("hot_water_timer"): text_sensor.text_sensor_schema(text_sensor.TextSensor),
         cv.Optional("date_energy_cons"): text_sensor.text_sensor_schema(text_sensor.TextSensor),
         cv.Optional("date_energy_prod"): text_sensor.text_sensor_schema(text_sensor.TextSensor),
+        cv.Optional("temp_test"): text_sensor.text_sensor_schema(text_sensor.TextSensor),
     }
 ).extend(cv.COMPONENT_SCHEMA)
 
